@@ -1,0 +1,20 @@
+Question 2
+import java.util.*;
+public class DAY5_PQ11 {
+	//write a java program to sum first n even numbers using do-while loop
+	public static void main(String[] args) {
+        
+        int n = 2;
+        int sum = 0;
+        int count = 0;
+        int number = 2; 
+        do {
+            sum += number;
+            count++;
+            number += 2; 
+        } while (count < n);
+
+        // Display the result
+        System.out.println("Sum of first " + n + " even numbers = " + sum);
+    }
+}

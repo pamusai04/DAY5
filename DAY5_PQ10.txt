@@ -1,0 +1,8 @@
+Question 10
+//A do while loop is executed :
+        A.At least once 
+	B.At least twice
+	C.At mot once
+ANSWER :
+	A.At least once 
+	

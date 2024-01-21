@@ -1,0 +1,26 @@
+Question 8: 
+
+what can be done using one type of loop can also be done using the other two types of loops - true or false 
+ANSWER:
+True. In most programming languages, including Java, the three main types of loops are for, while, and do-while loops. The functionality of these loops is similar, and tasks that can be accomplished using one type of loop can generally be done using the other two types of loops as well.
+
+ loop types:
+	1.For Loop:
+	for (initialization; condition; update) {
+    		// loop body
+	}
+		The for loop is often used when you know the number of 			iterations in advance.
+
+	2.While Loop:
+	while (condition) {
+   		 // loop body
+	}
+		The while loop is used when the number of iterations is not 		known in advance and is based on a condition.
+
+	3.Do-While Loop:
+	do {
+    		// loop body
+	} while (condition);
+
+		The do-while loop is similar to the while loop, but it always 		executes the loop body at least once since the condition is 		evaluated after the loop body.
+

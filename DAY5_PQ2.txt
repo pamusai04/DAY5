@@ -1,0 +1,15 @@
+Question 2
+import java.util.*;
+public class DAY5_PQ2 {
+	//write a java program to sum first n even numbers using while loop
+	public static void main(String[] args) {
+		int n=4;
+		int sum=0;
+		for(int i=0;i<n;i++){
+			sum=sum+(2*i);
+		}
+		System.out.print("Sum of Even numbers is : ");
+		System.out.println(sum);
+		//first 4 even numbers are - 0 2 4 6
+    }
+}

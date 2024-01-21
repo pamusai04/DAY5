@@ -1,0 +1,19 @@
+//Question 5
+import java.util.*;
+public class DAY5_PQ5 {
+	//write a program to find factorial of a given number using for loop
+	public static void main(String[] args) {
+       		Scanner scanner = new Scanner(System.in);
+	        System.out.print("Enter a number: ");
+		int number = scanner.nextInt();
+
+		long factorial = 1;
+        	for (int i = 1; i <= number; i++) {
+            		factorial *= i;
+        	}
+
+        	// Display the result
+       		 System.out.println("Factorial of " + number + " = " + factorial);
+    	
+    }
+}
